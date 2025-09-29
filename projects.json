@@ -1,14 +1,14 @@
 [
     {
-        "name": "Mi Primer Proyecto",
-        "description": "Una breve descripción de lo que hace mi primer proyecto. Explica sus funcionalidades clave y tecnologías utilizadas.",
-        "readmeUrl": "https://github.com/gitarosales/AyPFigurasPHP/blob/main/README.md",
-        "repoUrl": "https://github.com/gitarosales/AyPFigurasPHP"
+        "name": "Figuras Geométricas - Área y Perímetro con PHP",
+        "description": "Este proyecto web permite calcular el área y el perímetro de figuras geométricas básicas como cuadrados, círculos y triángulos. El usuario selecciona una figura en la pantalla principal y luego introduce las medidas necesarias para ver los resultados calculados.",
+        "readmeUrl": "https://github.com/ChristianB22/AyPFigurasPHP/blob/main/README.md",
+        "repoUrl": "https://github.com/ChristianB22/AyPFigurasPHP"
     },
     {
-        "name": "Mi Segundo Proyecto",
-        "description": "Este es otro proyecto importante. Detalla los problemas que resuelve y cómo lo implementaste.",
-        "readmeUrl": "https://raw.githubusercontent.com/[TuUsuario]/[nombre-del-otro-repo]/main/README.md",
-        "repoUrl": "https://github.com/[TuUsuario]/[nombre-del-repositorio]"
+        "name": "Calculadora Básica en Python",
+        "description": "Esta es una calculadora de escritorio simple desarrollada con Python, que te permite realizar operaciones aritméticas básicas como suma, resta, multiplicación, división, porcentaje y raíz cuadrada.",
+        "readmeUrl": "https://github.com/ChristianB22/CalculadoraPython/blob/main/README.md",
+        "repoUrl": "https://github.com/ChristianB22/CalculadoraPython"
     }
 ]
