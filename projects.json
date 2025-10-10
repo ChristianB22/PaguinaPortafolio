@@ -3,13 +3,15 @@
         "name": "Figuras Geométricas - Área y Perímetro con PHP",
         "description": "Este proyecto web permite calcular el área y el perímetro de figuras geométricas básicas como cuadrados, círculos y triángulos. El usuario selecciona una figura en la pantalla principal y luego introduce las medidas necesarias para ver los resultados calculados.",
         "readmeUrl": "https://github.com/ChristianB22/AyPFigurasPHP/blob/main/README.md",
-        "repoUrl": "https://github.com/ChristianB22/AyPFigurasPHP"
+        "repoUrl": "https://github.com/ChristianB22/AyPFigurasPHP",
+        "onlinePage": "https://proyectosinformaticatnl.ceti.mx/pcbuilder/AyPFigurasPHP/index.html"
     },
     {
         "name": "Calculadora Básica en Python",
         "description": "Esta es una calculadora de escritorio simple desarrollada con Python, que te permite realizar operaciones aritméticas básicas como suma, resta, multiplicación, división, porcentaje y raíz cuadrada.",
         "readmeUrl": "https://github.com/ChristianB22/CalculadoraPython/blob/main/README.md",
-        "repoUrl": "https://github.com/ChristianB22/CalculadoraPython"
+        "repoUrl": "https://github.com/ChristianB22/CalculadoraPython",
+        "onlinePage": "https://github.com/ChristianB22/CalculadoraPython"
     },
     {
         "name": "PromedioCalificacionXML",
@@ -32,3 +34,4 @@
         "repoUrl": "https://github.com/ChristianB22/AgendaContactosXML",
         "onlinePage": "https://proyectosinformaticatnl.ceti.mx/pcbuilder/Act1.2_CRUD/V3/index.php"
     }
+]
