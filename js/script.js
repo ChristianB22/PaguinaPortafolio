@@ -28,11 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 const projectLink = document.createElement('a');
                 projectLink.href = project.readmeUrl;
                 projectLink.target = '_blank';
-                projectLink.textContent = 'Ver README';
+                projectLink.textContent = 'Ver README |';
+
+                const projectSitio = document.createElement('a');
+                projectSitio.href = project.onlinePage;
+                projectSitio.target = '_blank';
+                projectSitio.textContent = ' | Ver Sitio Web';
 
                 projectCard.appendChild(projectNameLink);
                 projectCard.appendChild(projectDesc);
                 projectCard.appendChild(projectLink);
+                projectCard.appendChild(projectSitio);
 
                 projectsContainer.appendChild(projectCard);
             });
@@ -42,4 +48,32 @@ document.addEventListener('DOMContentLoaded', () => {
             const projectsContainer = document.getElementById('projects-container');
             projectsContainer.innerHTML = '<p>No se pudieron cargar los proyectos. Inténtalo de nuevo más tarde.</p>';
         });
+});
+
+// Efecto de reducir header al hacer scroll
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    if (window.scrollY > 100) { // cuando baja 100px
+        header.classList.add('shrink');
+    } else {
+        header.classList.remove('shrink');
+    }
+});
+
+// Efecto de scroll para mover la imagen de fondo hasta el footer
+window.addEventListener('scroll', function() {
+    const scrollTop = window.scrollY;
+    const docHeight = document.body.scrollHeight;
+    const winHeight = window.innerHeight;
+    const footer = document.querySelector('footer');
+    const footerTop = footer.offsetTop;
+
+    // Calcula hasta dónde se debe mover el fondo
+    const maxScroll = footerTop - winHeight;
+
+    // Limita el movimiento de la imagen al llegar al footer
+    const scrollFactor = Math.min(scrollTop / maxScroll, 1);
+
+    // Mueve el fondo suavemente (ajusta el número 200 para más o menos desplazamiento)
+    document.body.style.backgroundPosition = `center ${scrollFactor * 100}px`;
 });
