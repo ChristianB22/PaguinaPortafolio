@@ -10,5 +10,25 @@
         "description": "Esta es una calculadora de escritorio simple desarrollada con Python, que te permite realizar operaciones aritméticas básicas como suma, resta, multiplicación, división, porcentaje y raíz cuadrada.",
         "readmeUrl": "https://github.com/ChristianB22/CalculadoraPython/blob/main/README.md",
         "repoUrl": "https://github.com/ChristianB22/CalculadoraPython"
+    },
+    {
+        "name": "PromedioCalificacionXML",
+        "description": "Sitio web online que permite capturar la calificacion de 3 materias diferentes, mostrar todos los promedios y buscar entre estos de un archivo XML.",
+        "readmeUrl": "https://github.com/ChristianB22/PromedioCalificacionXML/blob/main/README.md",
+        "repoUrl": "https://github.com/ChristianB22/PromedioCalificacionXML",
+        "onlinePage": "https://proyectosinformaticatnl.ceti.mx/pcbuilder/Examen1P/index.php"
+    },
+    {
+        "name": "Sitio_PC-Builder",
+        "description": "Sitio web online donde se informa, promociona y plantea venderse el videojuego PC-Builder",
+        "readmeUrl": "https://github.com/ChristianB22/Sitio_PC-Builder/blob/main/README.md",
+        "repoUrl": "https://github.com/ChristianB22/Sitio_PC-Builder",
+        "onlinePage": "https://proyectosinformaticatnl.ceti.mx/pcbuilder/"
+    },
+    {
+        "name": "AgendaContactosXML",
+        "description": "Sitio web online que realiza inserción, búsqueda, modificación, eliminación y lectura de los datos requeridos para una agenda de contactos en un archivo XML.",
+        "readmeUrl": "https://github.com/ChristianB22/CalculadoraPython/blob/main/README.md",
+        "repoUrl": "https://github.com/ChristianB22/AgendaContactosXML",
+        "onlinePage": "https://proyectosinformaticatnl.ceti.mx/pcbuilder/Act1.2_CRUD/V3/index.php"
     }
-]
